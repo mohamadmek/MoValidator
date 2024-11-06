@@ -11,6 +11,7 @@
 		8D4295242CDB8B7700C96CC2 /* MoValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4295192CDB8B7600C96CC2 /* MoValidator.framework */; };
 		8D4295292CDB8B7700C96CC2 /* MoValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4295282CDB8B7700C96CC2 /* MoValidatorTests.swift */; };
 		8D42952A2CDB8B7700C96CC2 /* MoValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D42951C2CDB8B7600C96CC2 /* MoValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4295342CDB8B8B00C96CC2 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4295332CDB8B8B00C96CC2 /* Validator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		8D42951D2CDB8B7600C96CC2 /* MoValidator.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MoValidator.docc; sourceTree = "<group>"; };
 		8D4295232CDB8B7700C96CC2 /* MoValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4295282CDB8B7700C96CC2 /* MoValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoValidatorTests.swift; sourceTree = "<group>"; };
+		8D4295332CDB8B8B00C96CC2 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				8D42951C2CDB8B7600C96CC2 /* MoValidator.h */,
 				8D42951D2CDB8B7600C96CC2 /* MoValidator.docc */,
+				8D4295332CDB8B8B00C96CC2 /* Validator.swift */,
 			);
 			path = MoValidator;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4295342CDB8B8B00C96CC2 /* Validator.swift in Sources */,
 				8D42951E2CDB8B7600C96CC2 /* MoValidator.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 		8D4295312CDB8B7700C96CC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -424,6 +429,7 @@
 		8D4295322CDB8B7700C96CC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
