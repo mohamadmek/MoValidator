@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MoValidator"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "Short Validator"
   spec.description  = "A short description of MoValidator."
 
